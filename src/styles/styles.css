@@ -81,3 +81,14 @@ header img {
 .carrocel {
     text-align: center;
 }
+
+.carrocel img{
+    width: 78rem;
+    height: 56rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mais-vendidos{
+    text-align: center;
+}
