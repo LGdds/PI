@@ -44,7 +44,54 @@ nav a {
     padding: 50px;
     background: url('banner.jpg') no-repeat center center/cover;
     color: white;
+    display: flex;
 }
+
+section.banner{
+    justify-content: space-around;
+}
+
+.sazonal{
+    text-align: center;
+}
+
+.card-produtos {
+    width: 20rem;
+    background-color: #f07c90;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 21rem;
+    cursor: pointer;
+}
+
+.card-produtos:hover{
+    padding: 3rem;
+    transition: .4s;
+    background-color: #a0dcd7;
+    color: #f07c90;
+}
+
+.card-produtos:hover h3 {
+    color: #f07c90;
+}
+
+.card-produtos img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.card-produtos h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card-produtos p{
+    color: white;
+    font-size: 18px;
+}
+
 .sobre, .lojas, .produtos {
     padding: 50px;
     text-align: center;
@@ -98,5 +145,12 @@ header img {
 }
 
 button{
-    color:#a0dcd7;
+    color:#f07c90;
+    background: #a0dcd7;
+    height: 2rem;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+.button-content h3{
+    margin-bottom: 10px;
 }
