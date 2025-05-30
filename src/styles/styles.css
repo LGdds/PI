@@ -56,11 +56,11 @@ section.banner{
 }
 
 .card-produtos {
-    width: 20rem;
+    width: 30rem;
     background-color: #f07c90;
     padding: 2rem;
     border-radius: 10px;
-    height: 21rem;
+    height: 35rem;
     cursor: pointer;
 }
 
@@ -76,8 +76,8 @@ section.banner{
 }
 
 .card-produtos img{
-    width: 5rem;
-    height: 5rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .card-produtos h3 {
@@ -143,14 +143,15 @@ header img {
 .button-content {
     text-align: center;
 }
-
-button{
+/*
+button menu{
     color:#f07c90;
     background: #a0dcd7;
     height: 2rem;
     margin-bottom: 5px;
     border-radius: 20px;
 }
-.button-content h3{
+.button menu content h3{
     margin-bottom: 10px;
 }
+    */
