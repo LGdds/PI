@@ -21,11 +21,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f07c90;
+    background: #a2dbd7;
     padding: 15px 50px;
     color: white;
     font-size: 30px;
     font-style: bold;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -33,12 +35,33 @@ nav ul {
     display: flex;
     gap: 20px;
 }
+
 nav a {
     text-decoration: none;
-    color: white;
+    color: #f07c90;
     font-weight: bold;
     font-size: 17px;
+    border-bottom: #F07C90 2px solid;
+    border-radius: 5px;        
+    padding: 10px 20px;       
+    background-color: #F07C90; 
+    color: #fff5f7;            
+                  
 }
+
+ section.produto-cardapio button {
+    text-decoration: none;
+    color: #f07c90;
+    font-weight: bold;
+    font-size: 17px;
+    border-bottom: #F07C90 2px solid;
+    border-radius: 5px;        
+    padding: 10px 20px;       
+    background-color: #F07C90; 
+    color: #fff5f7;  
+ }
+   
+
 .banner {
     text-align: center;
     padding: 50px;
@@ -49,6 +72,7 @@ nav a {
 
 section.banner{
     justify-content: space-around;
+    background-color: #FFF2F2
 }
 
 .sazonal{
@@ -110,11 +134,18 @@ section.banner{
     height: 9rem;
 }
 footer {
-    background: #f07c90;
+    background: #a2dbd7;
     text-align: center;
     padding: 15px;
-    color: white;
+    color: #333;
 }
+
+.account-button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}   
+
 .banner{
     color: #333;
 }
@@ -123,6 +154,11 @@ header img {
     width: 7rem;
     height: 7rem;
     border: none;
+}
+
+.escrita {
+    width: 57rem;
+    height: 7rem;;
 }
 
 .carrocel {
@@ -155,3 +191,53 @@ button menu{
     margin-bottom: 10px;
 }
     */
+section.mais-vendidos{
+    background-color: #F07C90;
+    height: 100vh;
+    padding: 165px;;
+}
+
+
+section.sazonal {
+    background-color: #FFF2F2;
+}
+
+section.lojas{
+    background-color: #FFF2F2;
+    padding: 50px;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  ;        
+}
+
+section.produtos{
+    background-color: #F07C90;
+    padding: 165px;  
+    height: 100vh;
+}
+
+.img-logonanda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.button-content{
+    background-color: #FFF2F2;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+section.produto-cardapio{
+    background-color: #FFF2F2;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+   
