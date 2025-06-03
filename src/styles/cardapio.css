@@ -173,12 +173,6 @@ section.produtos{
     text-align: center;
 }
 
-section.decoracoess{
-    background-color: #FFF2F2;
-    padding: 165px;  
-    text-align: center;
-}
-
 .arco {
     display: flex;
     justify-content: end;
@@ -244,7 +238,6 @@ section.decoracoess{
 section.decoracoes{
     background-color: #FFF2F2;
     padding: 165px;  
-    height: 200vh;
     text-align: center;
 }
 
