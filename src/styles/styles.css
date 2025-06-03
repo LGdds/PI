@@ -124,15 +124,32 @@ section.banner{
 .produto {
     display: inline-block;
     background: white;
-    padding: 15px;
+    padding: 2.5rem;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+   
+}
+
+.produto:hover {
+    background-color: #a2dbd7;
+    transition: .4s;
+    padding: 3rem;
+
+}
+
+.produto:hover h3 {
+    color: #F07C90;
+}
+.produto:hover p {
+    color: #FFFFFF;
 }
 
 .produto img{
     width: 9rem;
     height: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -228,6 +245,15 @@ section.produto-cardapio{
     align-items: center;
     justify-content: center;
     height: 70vh;
+}
+
+.arco {
+    display: flex;
+    justify-content: end;
+}
+
+.arco a {
+    color: #F07C90;
 }
 
    
