@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #a2dbd7;
-    padding: 15px 50px;
+    padding: 17px 50px;
     color: white;
     font-size: 30px;
     font-style: bold;
@@ -50,20 +50,22 @@ nav a {
 }
 
 header img {
-    width: 7rem;
+    width: 8.6rem;
     height: 7rem;
     border: none;
 }
 
 .escrita {
-    width: 57rem;
+    width: 62rem;
     height: 7rem;;
 }
 
 footer {
-    background: #a2dbd7;
+     background: #a2dbd7;
     text-align: center;
-    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     color: #333;
 }
 
@@ -246,4 +248,12 @@ h1{
     font-size: 2.5rem;
     color: #f07c90;
     margin-bottom: 20px;
+}
+
+.account-button img{
+    color: white;
+    padding: 10px 10px;
+    width: 107%;
+    height: 100%;
+    
 }

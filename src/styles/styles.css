@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #a2dbd7;
-    padding: 15px 50px;
+    padding: 17px 50px;
     color: white;
     font-size: 30px;
     font-style: bold;
@@ -155,7 +155,9 @@ section.banner{
 footer {
     background: #a2dbd7;
     text-align: center;
-    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     color: #333;
 }
 
@@ -170,13 +172,13 @@ footer {
 }
 
 header img {
-    width: 7rem;
+    width: 8.6rem;
     height: 7rem;
     border: none;
 }
 
 .escrita {
-    width: 57rem;
+    width: 62rem;
     height: 7rem;;
 }
 
@@ -207,6 +209,7 @@ section.mais-vendidos{
 
 section.sazonal {
     background-color: #FFF2F2;
+    
 }
 
 section.lojas{
@@ -218,7 +221,7 @@ section.lojas{
 }
 
 section.produtos{
-    background-color: #F07C90;
+    background-color: #FFF2F2;
     padding: 165px;  
     height: 100vh;
 }
@@ -238,7 +241,7 @@ section.button-content{
 }
 
 section.produto-cardapio{
-    background-color: #FFF2F2;
+    background-color: #F07C90;
     padding: 50px;
     display: flex;
     text-align: center;
@@ -246,6 +249,7 @@ section.produto-cardapio{
     justify-content: center;
     height: 70vh;
 }
+
 
 .arco {
     display: flex;
@@ -256,4 +260,10 @@ section.produto-cardapio{
     color: #F07C90;
 }
 
-   
+.account-button img{
+    color: white;
+    padding: 10px 10px;
+    width: 107%;
+    height: 100%;
+    
+}
