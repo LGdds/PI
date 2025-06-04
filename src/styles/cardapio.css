@@ -106,7 +106,6 @@ footer {
     font-size: 18px;
 }
 
-
 .produto {
     display: inline-block;
     background: white;
@@ -127,6 +126,7 @@ footer {
 .produto:hover h3 {
     color: #F07C90;
 }
+
 .produto:hover p {
     color: #FFFFFF;
 }
@@ -157,6 +157,7 @@ footer {
 .decoracao:hover h3 {
     color: #F07C90;
 }
+
 .decoracao:hover p {
     color: #FFFFFF;
 }
@@ -167,7 +168,6 @@ footer {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
 
 section.produtos{
     background-color: #F07C90;
@@ -220,7 +220,6 @@ section.produtos{
     color: white;
     font-size: 18px;
 }
-
 
 .decoracao {
     display: inline-block;
