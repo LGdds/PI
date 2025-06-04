@@ -250,7 +250,6 @@ section.produto-cardapio{
     height: 70vh;
 }
 
-
 .arco {
     display: flex;
     justify-content: end;
@@ -266,4 +265,32 @@ section.produto-cardapio{
     width: 107%;
     height: 100%;
     
+}
+
+.cardapio {
+    display: inline-block;
+    background: white;
+    padding: 2.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+   
+}
+
+.cardapio:hover {
+    background-color: #a2dbd7;
+    transition: .4s;
+    padding: 3rem;
+
+}
+
+.cardapio:hover h2 {
+    color: #F07C90;
+}
+.cardapio:hover p {
+    color: #FFFFFF;
+}
+
+.lojas h5{
+    text-align: left;
 }
