@@ -293,7 +293,7 @@ h1{
 }
 
 .botoes img{
-    width: 300px;
+    width: 220px;
     height: 175px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -304,8 +304,31 @@ h1{
     font-weight: 300;
 }
 
-section .card-botoes{
+.card-botoes {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.botoes button{
+    background-color: #F07C90;
+    padding: 10px;
+    border-radius: 10px;
+    border: #F07C90 solid 3px;
+}
+
+.botoes a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.botoes button:hover {
+    background-color: #a2dbd7;
+    transition: .5s;
+}
+
+.botoes button:hover a{
+    color: #F07C90;
 }
