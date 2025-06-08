@@ -11,20 +11,21 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: poppins, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff5f7;
     color: #333;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #a2dbd7;
-    padding: 17px 50px;
+    padding: 17px 110px;
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-style: bold;
     position: fixed;
     width: 100%;
@@ -40,7 +41,7 @@ nav a {
     text-decoration: none;
     color: #f07c90;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
     border-bottom: #F07C90 2px solid;
     border-radius: 5px;        
     padding: 10px 20px;       
@@ -172,14 +173,14 @@ footer {
 }
 
 header img {
-    width: 8.6rem;
-    height: 7rem;
+    width: 6rem;
+    height: 5.5rem;
     border: none;
 }
 
 .escrita {
-    width: 62rem;
-    height: 7rem;;
+    width: 60rem;
+    height: 5.5rem;
 }
 
 .carrocel {
@@ -203,7 +204,7 @@ header img {
 
 section.mais-vendidos{
     background-color: #F07C90;
-    height: 100vh;
+    height: 65vh;
     padding: 165px;;
 }
 
@@ -293,4 +294,11 @@ section.produto-cardapio{
 
 .lojas h5{
     text-align: left;
+}
+
+.sobreimg{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+
 }

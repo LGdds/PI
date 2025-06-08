@@ -17,14 +17,15 @@ body {
     background-color: #fff5f7;
     color: #333;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #a2dbd7;
-    padding: 17px 50px;
+    padding: 17px 110px;
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-style: bold;
     position: fixed;
     width: 100%;
@@ -36,11 +37,13 @@ nav ul {
     gap: 20px;
 }
 
+
+
 nav a {
     text-decoration: none;
     color: #f07c90;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
     border-bottom: #F07C90 2px solid;
     border-radius: 5px;        
     padding: 10px 20px;       
@@ -50,14 +53,14 @@ nav a {
 }
 
 header img {
-    width: 8.6rem;
-    height: 7rem;
+    width: 6rem;
+    height: 5.5rem;
     border: none;
 }
 
 .escrita {
-    width: 62rem;
-    height: 7rem;;
+    width: 60rem;
+    height: 5.5rem;
 }
 
 footer {
@@ -258,5 +261,4 @@ h1{
     padding: 10px 10px;
     width: 107%;
     height: 100%;
-    
-}
+    }
