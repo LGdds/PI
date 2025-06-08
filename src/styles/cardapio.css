@@ -261,4 +261,51 @@ h1{
     padding: 10px 10px;
     width: 107%;
     height: 100%;
-    }
+}
+
+.botoes {
+    background: white;
+    padding: 2.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.botoes:hover {
+    background-color: #a2dbd7;
+    transition: .4s;
+    padding: 3rem;
+
+}
+
+.botoes:hover h3 {
+    color: #F07C90;
+}
+
+.botoes:hover p {
+    color: #FFFFFF;
+}
+
+.botoes img{
+    width: 300px;
+    height: 175px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.botoes h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+section .card-botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
