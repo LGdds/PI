@@ -162,11 +162,35 @@ footer {
     color: #333;
 }
 
-.account-button {
+.account-button img{
     color: white;
-    padding: 10px 20px;
-    border: none;
-}   
+    padding: 0px 10px;
+    width: 107%;
+    height: 100%;
+}
+
+
+
+.icon-button {
+  display: inline-block;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icon-button img {
+  width: 40px; 
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.icon-button img:hover {
+  transform: scale(1.1);
+}
+
+
 
 .banner{
     color: #333;
