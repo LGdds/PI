@@ -37,8 +37,6 @@ nav ul {
     gap: 20px;
 }
 
-
-
 nav a {
     text-decoration: none;
     color: #f07c90;
@@ -264,8 +262,6 @@ h1{
     height: 100%;
 }
 
-
-
 .icon-button {
   display: inline-block;
   border: none;
@@ -284,8 +280,6 @@ h1{
 .icon-button img:hover {
   transform: scale(1.1);
 }
-
-
 
 .botoes {
     background: white;
