@@ -42,23 +42,34 @@ nav a {
     color: #f07c90;
     font-weight: bold;
     font-size: 15px;
-    border-bottom: #F07C90 2px solid;
+    border: #F07C90 3px solid ;
     border-radius: 5px;        
     padding: 10px 20px;       
     background-color: #F07C90; 
     color: #fff5f7;            
-                  
+                 
+}
+
+.nav:hover a {
+    background-color: #a2dbd7;
+    transition: .5s;
 }
 
 header img {
-    width: 6rem;
-    height: 5.5rem;
+    width: 8rem;
+    height: 6rem;
     border: none;
 }
 
 .escrita {
-    width: 60rem;
+    display: flex;
+    width: 65rem;
     height: 5.5rem;
+    justify-content: left;
+}
+
+.escrita img {
+    width: 100px;
 }
 
 footer {
@@ -140,6 +151,7 @@ footer {
     height: 175px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-radius: 15%;
 }
 
 .decoracao:hover {

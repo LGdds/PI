@@ -25,7 +25,7 @@ header {
     background: #a2dbd7;
     padding: 17px 110px;
     color: white;
-    font-size: 28px;
+    font-size: 26px;
     font-style: bold;
     position: fixed;
     width: 100%;
@@ -42,12 +42,11 @@ nav a {
     color: #f07c90;
     font-weight: bold;
     font-size: 15px;
-    border-bottom: #F07C90 2px solid;
+    border: #F07C90 solid 3px;
     border-radius: 5px;        
-    padding: 10px 20px;       
+    padding: 10px 20px;
     background-color: #F07C90; 
-    color: #fff5f7;            
-                  
+    color: #fff5f7;                   
 }
 
  section.produto-cardapio button {
@@ -60,8 +59,7 @@ nav a {
     padding: 10px 20px;       
     background-color: #F07C90; 
     color: #fff5f7;  
- }
-   
+}
 
 .banner {
     text-align: center;
@@ -81,12 +79,11 @@ section.banner{
 }
 
 .card-produtos {
-    width: 30rem;
+    width: 34rem;
     background-color: #f07c90;
     padding: 2rem;
     border-radius: 10px;
-    height: 35rem;
-    cursor: pointer;
+    height: 38rem;
 }
 
 .card-produtos:hover{
@@ -101,15 +98,8 @@ section.banner{
 }
 
 .card-produtos img{
-    width: 20rem;
-    height: 20rem;
-}
-
-.card-produtos h3 {
-    color: white;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    font-size: 25px;
+    width: 28rem;
+    height: 28rem;
 }
 
 .card-produtos p{
@@ -151,6 +141,7 @@ section.banner{
     height: 9rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-radius: 15%;
 }
 
 footer {
@@ -193,14 +184,20 @@ footer {
 }
 
 header img {
-    width: 6rem;
-    height: 5.5rem;
+    width: 8rem;
+    height: 6rem;
     border: none;
 }
 
 .escrita {
-    width: 60rem;
+    display: flex;
+    width: 65rem;
     height: 5.5rem;
+    justify-content: left;
+}
+
+.escrita img {
+    width: 100px;
 }
 
 .carrocel {
@@ -294,8 +291,7 @@ section.produto-cardapio{
     padding: 2.5rem;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-   
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);  
 }
 
 .cardapio:hover {
@@ -308,8 +304,19 @@ section.produto-cardapio{
 .cardapio:hover h2 {
     color: #F07C90;
 }
+
 .cardapio:hover p {
     color: #FFFFFF;
+}
+
+.produto-cardapio button:hover {
+    background-color: #a2dbd7;
+    transition: .5s;
+    border: #F07C90 solid 4px;
+}
+
+.produto-cardapio button:hover a{
+    color: #F07C90;
 }
 
 .lojas h5{
@@ -320,5 +327,9 @@ section.produto-cardapio{
     width: 50%;
     height: auto;
     border-radius: 10px;
+}
 
+.nav:hover a {
+    background-color: #a2dbd7;
+    transition: .5s;
 }
